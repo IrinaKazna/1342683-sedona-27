@@ -92,15 +92,23 @@
         <br>И мы покажем вам лучшие предложения гостиницв Седоне</p>
         <button type="button" name="button">Поиск гостиницы в Седоне</button>
       <!-- Выпадающее окно -->
-        <div>
-          <form>
-            <input type="date" name="" value="дата заезда"> <!-- Дата заезда -->
-            <input type="date" name="" value="дата выезда"> <!-- Дата выезда -->
-            <input type="" name="" value="количество взрослых"> <!-- Количество взрослых -->
-            <input type="" name="" value="количество детей"> <!-- Количество детей -->
+
+          <form >
+            <p>
+             Дата заезда:
+            <input type="date" name="" value="дата заезда"></p>
+            <p>
+              Дата выезда:
+            <input type="date" name="" value="дата выезда"></p>
+            <p>
+              Взрослые:
+            <input type="number" size="3" name="num" min="0" max="6"value="0"></p>
+            <p>
+              Дети:
+            <input type="number" size="3" name="num" min="0" max="6"value="0"></p>
             <button type="submit" name="submit">Найти</button>
           </form>
-        </div>
+
         <img src="img/map.jpg" width="1200" height="593" alt="карта расположения Седона">
       </section>
       </main>
