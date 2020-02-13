@@ -3,16 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+   <link href="css/normalize.css" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
-      <header>
+  <body class="inner-page">
+      <header class="main-header">
         <div>
           <img src="img/logo.svg" width="140" height="71" alt="логотип сайта">
         </div>
-      <nav>
-        <ul>
-            <li><a href="#">Информация</a></li>
-            <li><a href="#">Фото и видео</a></li>
+      <nav class="main-navigation">
+        <ul class="site-navigation">
+            <li class="site-navigation-current"><a href="catalog.html">Информация</a></li>
+            <liclass="site-navigation-current"><a href="catalog.html">Фото и видео</a></li>
             <li><a href="#">Карта штата</a></li>
             <li><a href="catalog.html">Гостиницы</a></li>
         </ul>
@@ -21,8 +24,8 @@
       <main>
       <!-- Промо (шапка) сайта -->
         <section>
-          <img src="img\background-photo.jpg" alt="фон">
-          <img src=<"img\welcome.png" alt="фон2">
+          <img src="img/background-photo.jpg" alt="фон">
+          <img src="img/welcome.png" alt="фон2">
           <h1>Седона - небольшой городок в аризоне, заслуживающий большего</h1>
           <p>Расмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
         </section>
@@ -109,7 +112,7 @@
             <button type="submit">Найти</button>
           </form>
 
-        <img src="img/map.jpg" width="1200" height="593" alt="карта расположения Седона">
+        <img src="img/map.jpg" width="1200" height="593" alt="Карта штата">
       </section>
       </main>
       <!-- Подвал сайта -->
@@ -123,7 +126,7 @@
         </ul>
         <div>
           <span>Website by</span>
-          <a href=""><img src="img/logo-htmla.svg" alt="логотип HTML академии"></a>
+          <a href="#"><img src="img/logo-htmla.svg" alt="логотип HTML академии"></a>
         </div>
       </footer>
   </body>
